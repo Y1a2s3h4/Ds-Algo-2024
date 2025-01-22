@@ -15,11 +15,11 @@ from count_number_of_pairs_with_absolute_difference_k import countKDifference
 nums = [3,2,1,5,4]
 k = 2
 
-print("Total number of pairs with absolute difference of {k}: ", countKDifference(nums, k))
+print("Total number of pairs with absolute difference of {}: ".format(k), countKDifference(nums, k))
 
 ''' Test Case 2 '''
 
 nums = [1,3]
 k = 3
 
-print("Total number of pairs with absolute difference of {k}: ", countKDifference(nums, k))
+print("Total number of pairs with absolute difference of {}: ".format(k), countKDifference(nums, k))
